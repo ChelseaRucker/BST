@@ -112,7 +112,7 @@ class BST {
     // preoder: root, left, right
     // returns in this order 20, 17, 4, 19, 23, 22, 28 
     dfsPreOrder() {
-        let result []
+        let result = []
 
         const traverse = node => {
             // capture root node value
@@ -131,7 +131,7 @@ class BST {
     //post order: left, right, root
     //returns in this order 4, 19, 17, 22, 28, 23, 20, 
     dfsPostOrder() {
-        let result []
+        let result = []
 
         const traverse = node => {
             // if left child exsists, go left again
